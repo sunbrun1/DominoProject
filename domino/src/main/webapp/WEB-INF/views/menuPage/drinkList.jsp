@@ -99,7 +99,7 @@ var addBasketComplete = function() {
 						<div class="title-wrap-center">
 							<h3 class="title-type"></h3>
 						</div>
-						<c:if test="${ empty drinklist }">
+						<c:if test="${ empty drinkList }">
 							<tr class="data">
 								<td align="center" colspan="6">
 									<h3>작성된 게시글이 없습니다.</h3>
@@ -108,8 +108,8 @@ var addBasketComplete = function() {
 						</c:if>
 						<div class="menu-list ect-type">
 							<ul>
-								<c:if test="${ not empty drinklist }">
-									<c:forEach items="${ drinklist }" var="dto">
+								<c:if test="${ not empty drinkList }">
+									<c:forEach items="${ drinkList }" var="dto">
 										<!-- 음료 -->
 										<li>
 											<div class="prd-img">
