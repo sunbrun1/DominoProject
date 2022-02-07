@@ -19,7 +19,7 @@
 						<div class="depth-area">
 							<ol>
 								<li><a href="/main">홈</a></li>
-								<li><a href="/pizzaList.do">메뉴</a></li>
+								<li><a href="/pizzaList">메뉴</a></li>
 								<li><strong>사이드디시 </strong></li>
 							</ol>
 						</div>
@@ -31,9 +31,9 @@
 						<div class="menu-nav-wrap">
 							<div class="menu-nav">
 								<ul>
-									<li><a href="pizzaList.do">피자</a></li>
-									<li class="active"><a href="sidedishList.do">사이드디시</a></li>
-									<li><a href="drinkList.do">음료&기타</a></li>
+									<li><a href="pizzaList">피자</a></li>
+									<li class="active"><a href="sidedishList">사이드디시</a></li>
+									<li><a href="drinkList">음료&기타</a></li>
 								</ul>
 							</div>
 
