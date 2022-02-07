@@ -6,4 +6,8 @@
 	<select id="getPizzaList" resultType="com.mycompany.domain.PizzaDTO">
 		SELECT * FROM pizza_menu
 	</select>
+	
+	<select id="getDrinkList" resultType="com.mycompany.domain.DrinkDTO">
+		SELECT * FROM drink_etc
+	</select>
 </mapper>
