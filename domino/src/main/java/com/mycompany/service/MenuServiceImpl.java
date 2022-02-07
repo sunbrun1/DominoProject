@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
+import com.mycompany.domain.DrinkDTO;
 import com.mycompany.domain.PizzaDTO;
 import com.mycompany.mapper.MenuMapper;
 
@@ -21,5 +22,10 @@ public class MenuServiceImpl implements MenuService{
 	@Override
 	public List<PizzaDTO> getPizzaList() {
 		return mapper.getPizzaList();
+	}
+
+	@Override
+	public List<DrinkDTO> getDrinkList() {
+		return mapper.getDrinkList();
 	}
 }
