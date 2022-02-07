@@ -9,4 +9,9 @@
 		<put-attribute name="footer" value="/WEB-INF/views/inc/footer.jsp" />
 		<put-attribute name="title" value="SiSt 5 Class" />
 	</definition>
+	<definition name="menu/*" template="/WEB-INF/views/menuPage/inc/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/inc/header.jsp" />
+		<put-attribute name="content" value="/WEB-INF/views/menuPage/{1}.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/inc/footer.jsp" />
+	</definition>
 </tiles-definitions>

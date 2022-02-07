@@ -49,7 +49,7 @@
 <div id="gnb" class="gnb-wrap">
 	<div class="gnb-inner">
 		<ul>
-			<li class="active"><a href="pizzaList.do"><span>메뉴</span></a></li>
+			<li class="active"><a href="/domino/menu/pizzaList"><span>메뉴</span></a></li>
 			<li><a href="#"><span>e-쿠폰</span></a></li>
 			<li><a href="#"><span>상품권 선물</span></a></li>
 			<li><a href="#"><span>이벤트&middot;제휴</span></a></li>

@@ -1,4 +1,4 @@
-package com.mycompany.domino;
+package com.mycompany.controller;
 
 import java.util.Locale;
 import org.slf4j.Logger;
