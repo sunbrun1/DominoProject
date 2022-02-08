@@ -10,4 +10,8 @@
 	<select id="getDrinkList" resultType="com.mycompany.domain.DrinkDTO">
 		SELECT * FROM drink_etc
 	</select>
+	
+	<select id="getSideList" resultType="com.mycompany.domain.SideDTO">
+		SELECT * FROM side_dish
+	</select>
 </mapper>
