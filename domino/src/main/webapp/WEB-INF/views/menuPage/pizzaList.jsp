@@ -32,7 +32,7 @@
 								<div class="menu-nav">
 									<ul>
 										<li class="active"><a href="pizzaList">피자</a></li>
-										<li><a href="sidedishList">사이드디시</a></li>
+										<li><a href="sideList">사이드디시</a></li>
 										<li><a href="drinkList">음료&기타</a></li>
 									</ul>
 								</div>
