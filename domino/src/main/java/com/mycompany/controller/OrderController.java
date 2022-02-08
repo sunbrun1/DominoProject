@@ -21,6 +21,10 @@ public class OrderController {
 	public void getPizzaList(HttpServletRequest request, Model model) {
 		String pizza_name = request.getParameter("name");
 		model.addAttribute("pizzaList", service.getPizzaList(pizza_name));
+		model.addAttribute("dowList", service.getDowList());
+		model.addAttribute("toppList", service.getToppList());
+		model.addAttribute("sideList", service.getSideList());
+		model.addAttribute("drinkList", service.getDrinkList());
 	}
 
 }
