@@ -15,7 +15,7 @@ public interface OrderService {
 	
 	public List<SideDTO> getSideList();
 	
-	public List<ToppDTO> getToppList();
+	public List<ToppDTO> getToppList(String topp_type);
 	
 	public List<DowDTO> getDowList();
 }
