@@ -343,6 +343,8 @@
 <div class="pop-layer" id="pop-sidedish">
 	<div class="dim"></div>
 </div>
+
+
 <script>
 				$(function() {
 					setTotalAmt();
