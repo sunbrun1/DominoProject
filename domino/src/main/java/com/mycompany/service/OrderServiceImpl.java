@@ -36,12 +36,13 @@ public class OrderServiceImpl implements OrderService{
 	}
 
 	@Override
-	public List<ToppDTO> getToppList() {
-		return mapper.getToppList();
+	public List<ToppDTO> getToppList(String topp_type) {
+		return mapper.getToppList(topp_type);
 	}
 
 	@Override
 	public List<DowDTO> getDowList() {
 		return mapper.getDowList();
 	}
+
 }
