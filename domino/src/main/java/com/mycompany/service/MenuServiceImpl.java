@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.mycompany.domain.DrinkDTO;
 import com.mycompany.domain.PizzaDTO;
+import com.mycompany.domain.SideDTO;
 import com.mycompany.mapper.MenuMapper;
 
 import lombok.AllArgsConstructor;
@@ -27,5 +28,10 @@ public class MenuServiceImpl implements MenuService{
 	@Override
 	public List<DrinkDTO> getDrinkList() {
 		return mapper.getDrinkList();
+	}
+
+	@Override
+	public List<SideDTO> getSideList() {
+		return mapper.getSideList();
 	}
 }
