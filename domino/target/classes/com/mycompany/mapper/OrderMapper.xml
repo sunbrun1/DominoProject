@@ -6,4 +6,16 @@
 	<select id="getPizzaList" resultType="com.mycompany.domain.PizzaDTO">
 		SELECT * FROM pizza_menu WHERE pizza_name = #{pizza_name}
 	</select>
+	<select id="getDrinkList" resultType="com.mycompany.domain.DrinkDTO">
+		SELECT * FROM drink_etc
+	</select>
+	<select id="getSideList" resultType="com.mycompany.domain.SideDTO">
+		SELECT * FROM side_dish
+	</select>
+	<select id="getToppList" resultType="com.mycompany.domain.ToppDTO">
+		SELECT * FROM topping WHERE topp_type = '메인'
+	</select>
+	<select id="getDowList" resultType="com.mycompany.domain.DowDTO">
+		SELECT * FROM dow
+	</select>
 </mapper>
