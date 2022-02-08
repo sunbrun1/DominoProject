@@ -26,4 +26,9 @@ public class MenuController {
 	public void getDrinkList(Model model) {
 		model.addAttribute("drinkList", service.getDrinkList());
 	}
+	
+	@GetMapping("/sideList")
+	public void getSideList(Model model) {
+		model.addAttribute("sideList", service.getSideList());
+	}
 }
