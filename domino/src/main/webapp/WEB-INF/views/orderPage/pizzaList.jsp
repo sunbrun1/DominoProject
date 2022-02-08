@@ -500,7 +500,7 @@
 									$
 											.ajax({
 												type : "GET",
-												url : "/domino/pages/menuPage/toppList.do",
+												url : "/domino/order/toppList",
 												data : {
 													'topp_type' : toppType
 												},
@@ -723,5 +723,3 @@
 					});
 				});
 			</script>
-</body>
-</html>

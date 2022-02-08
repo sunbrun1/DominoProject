@@ -56,7 +56,7 @@
 											<c:if test="${dto.pizza_type eq '프리미엄'}">
 												<li>
 													<div class="prd-img">
-														<a href="../order/pizzaList?name=${dto.pizza_name}&topp_type=메인">
+														<a href="../order/pizzaList?name=${dto.pizza_name}">
 														<img class="lazyload" src="https://cdn.dominos.co.kr/admin/upload/goods/${dto.pizza_image}"
 															data-src="https://cdn.dominos.co.kr/admin/upload/goods/20211201_3vIe6WP9.jpg"
 															alt="마스터 트리플 코스" />
